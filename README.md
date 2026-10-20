@@ -56,11 +56,11 @@ This whole setup was worked out in a session with [Claude Code](https://docs.cla
    curl -fsSL https://claude.ai/install.sh | bash
    ```
    Then run `claude` once and sign in.
-2. **Make a working folder.** Put this guide (`DAZ-Studio-on-Linux.md`) and your DIM installer (`DAZ3DIM_*_Win64.exe`) in it. If you have backed-up content archives, put them in a folder of their own.
+2. **Make a working folder.** Put this guide (`README.md` from this repo) and your DIM installer (`DAZ3DIM_*_Win64.exe`) in it. If you have backed-up content archives, put them in a folder of their own.
 3. **Start Claude Code in that folder** (`cd` into it and run `claude`), and give it a prompt like this:
 
    ```text
-   Read DAZ-Studio-on-Linux.md. I want to set up Daz Studio on this machine the same way.
+   Read README.md. I want to set up Daz Studio on this machine the same way.
    First, check my system against the guide's prerequisites (distro, GPU and driver,
    Wayland or X11, which GE-Proton and umu versions are installed) and tell me what's missing.
    Ask me before you install or download anything.
